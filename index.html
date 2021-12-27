@@ -23,12 +23,25 @@
 			.db { display: block!important; }
 			.dw { width:100%!important; min-width:100%!important; max-width:100%!important; }
 			.hm { display: none!important; font-size:0px!important; visibility:hidden; }
+            #ballie-beanie, #crew-socks { padding-top: 50px!important; }
 			}
 
-			@media only screen and (max-width:480px){
-				.container { width:95%!important; }
+            @media only screen and (max-width:480px){
+                .container { width:95%!important; }
 			}
-	</style>
+
+            @media only screen and (max-width:444px){
+                .container { width:95%!important; }
+                #shoe-perks { padding: 0px 4px 0px 4px!important; }
+                #social-icons img { padding: 0px 5px!important; width: 25px!important; height: 25px!important; border: none!important;}
+            }
+
+            @media only screen and (max-width:350px){
+                .container { width:95%!important; }
+                #menu-items a { font-size: 13px!important; line-height: 18px!important; }
+			}
+
+            </style>
 	
 </head>
 
@@ -67,7 +80,7 @@
 
                     <!-- perks member starts -->
                     <tr>
-                        <td align="center" bgcolor="ebf5f4">
+                        <td align="center" bgcolor="ebf5f4" id="shoe-perks">
                             <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
 
@@ -143,7 +156,7 @@
                                         </table>
                                     </td>
 
-                                    <td class="dw db" width="260" align="center" valign="top">
+                                    <td class="dw db" width="260" align="center" valign="top" id="ballie-beanie">
                                         <table width="100%" cellspacing="0" cellpading="0" border="0">
                                             <tr>
                                                 <td align="center" valign="top">
@@ -163,7 +176,7 @@
                                 
 
                                 <tr>
-                                    <td class="dw db" width="260" align="center" valign="top">
+                                    <td class="dw db" width="260" align="center" valign="top" id="crew-socks">
                                         <table width="100%" cellspacing="0" cellpading="0" border="0">
                                             <tr>
                                                 <td align="center" valign="top">
@@ -234,7 +247,7 @@
 
                     <!-- menu starts -->
                     <tr>
-                        <td align="center" bgcolor="#000000" style="padding: 8px 0px;">
+                        <td align="center" bgcolor="#000000" style="padding: 8px 0px;" id="menu-items">
                             <table width="90%" cellspacing="0" cellpadding="0" border="0">
                                 <tr>
 
@@ -278,7 +291,7 @@
 
                     <!-- social starts -->
                     <tr>
-                        <td align="center" style="padding-top: 15px;">
+                        <td align="center" style="padding-top: 15px;" id="social-icons">
                             <table width="24%" border="0" cellspacing="0" cellpadding="0" role="representation">
                                 <tr>
 
